@@ -1,0 +1,11 @@
+.LOGO {
+    margin-top: auto;
+    height: auto;
+    width: 70%;
+    padding-bottom: 5px;
+};
+
+.BIO {
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+};
