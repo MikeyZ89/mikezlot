@@ -1,23 +1,4 @@
-import React from "react";
-import "./App.css";
-import P1 from "../src/assets/img/team/MZ.jpg";
-import Header from "./components/Header";
-import Publications from "./components/Publications";
-import PhotoGallery from "./components/PhotoGallery";
-import Contact from "./components/Contact";
-
-function App() {
-  const publicationLinks = [
-    {
-      image: P1,
-      title: "Mikey Zlotkowski",
-      caption: "Photographer / Web Developer",
-      instagram: "https://www.instagram.com/thesh_mikey/",
-      contact: "https://www.tappy.tech/mikez",
-    },
-  ];
-
-  const photoSet = [
+export const photos = [
     {
       src: "https://source.unsplash.com/2ShvY8Lf6l0/800x599",
       width: 4,
@@ -63,16 +44,5 @@ function App() {
       width: 4,
       height: 3
     }
-  ]
-
-  return (
-    <div className="App">
-      <Header />
-      <Publications publicationLinks={publicationLinks}></Publications>
-      <PhotoGallery photoSet={photoSet}></PhotoGallery>
-      <Contact />
-    </div>
-  );
-}
-
-export default App;
+  ];
+  

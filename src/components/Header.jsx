@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-import THESH from "../assets/img/logos/theshblue.png";
+import MIKEZLOT from "../assets/img/logos/mzphoto.png";
 
 function Header() {
   return (
@@ -8,7 +8,7 @@ function Header() {
       <div className="container">
         <div className="intro-text">
           
-          <img className="LOGO" src={THESH} alt={THESH} />
+          <img className="LOGO" src={ MIKEZLOT } alt={ MIKEZLOT } />
           {/* <br></br>
           <div className="intro-lead-in">ALBUM COMING SOON</div>
           

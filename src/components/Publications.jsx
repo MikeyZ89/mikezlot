@@ -6,14 +6,13 @@ export default ({ publicationLinks }) => {
         <div className="container">
           <div className="row">
             <div className="col-lg-12 text-center">
-              <h2 className="section-heading text-uppercase">ORIGINAL MUSIC</h2>
-              <h3 className="section-subheading text-muted">Written and Performed By:</h3>
+              <h2 className="section-heading text-uppercase">ABOUT ME</h2>
             </div>
           </div>
           <div className="row">
             {
                 publicationLinks && publicationLinks.map(({ image, title, caption , instagram, contact}, index) => 
-                    <div className="col-md-6 col-sm-6 portfolio-item">
+                    <div className="col-md-12 col-sm-12 portfolio-item">
                         <a className="portfolio-link" data-toggle="modal" href={ contact }>
                             <div className="portfolio-hover">
                                 <div className="portfolio-hover-content">
